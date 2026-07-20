@@ -135,7 +135,7 @@ Welcome to the official repository of the **HUNT-TCU v1.0 IP Core**. This framew
 
 The HUNT-TCU v1.0 architecture acts as a structural hardware shield across 22 standalone applied engineering domains, driven natively by a fundamental physical axiom: **The particle resides indissolubly beneath the wave area, anchoring the phase within shared molecular silicon coordinates.**
 
-Usa el código con precaución.
+
 
 [ THE TRIDENTE INITIATIVE ]
 │
