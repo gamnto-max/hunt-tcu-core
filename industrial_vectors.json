@@ -1,0 +1,65 @@
+json{
+  "tcu_project_extended_benchmarks": {
+    "version": "1.0.0",
+    "lead_architect": "Richard Hunt",
+    "universal_invariant_constraint": "#=1",
+    "critical_line_target": "sigma=0.5",
+    "scenarios": [
+      {
+        "id": 13,
+        "title": "Avionics Fly-by-Wire Phase Skew",
+        "input_charge_ev": 1.41e12,
+        "load_multiplier": 1.4,
+        "expected_v_a_ratio": 0.5,
+        "expected_v_b_ratio": 0.5,
+        "expected_v_c_dampening": 0.0,
+        "target_room_temperature": "24.0C",
+        "industrial_scope": "Stabilizing continuous elevator flight vectors under atmospheric ionization."
+      },
+      {
+        "id": 24,
+        "title": "Starlink Constellation Cross-Link Laser Skew",
+        "input_charge_ev": 3.80e12,
+        "load_multiplier": 2.0,
+        "expected_v_a_ratio": 0.5,
+        "expected_v_b_ratio": 0.5,
+        "expected_v_c_dampening": 0.0,
+        "target_room_temperature": "24.5C",
+        "industrial_scope": "Coordinating optical inter-satellite routing inside SpaceX network payloads."
+      },
+      {
+        "id": 27,
+        "title": "Pacemaker Adaptive Phase Pacing Shield",
+        "input_charge_ev": 2.50e11,
+        "load_multiplier": 0.5,
+        "expected_v_a_ratio": 0.5,
+        "expected_v_b_ratio": 0.5,
+        "expected_v_c_dampening": 0.0,
+        "target_room_temperature": "36.5C",
+        "industrial_scope": "Ultra-low power, zero-heat analog monitoring to eliminate cardiovascular inflammation."
+      },
+      {
+        "id": 33,
+        "title": "Synchrotron Storage Ring Particle Beam Stabilization",
+        "input_charge_ev": 5.00e12,
+        "load_multiplier": 5.0,
+        "expected_v_a_ratio": 0.5,
+        "expected_v_b_ratio": 0.5,
+        "expected_v_c_dampening": 0.0,
+        "target_room_temperature": "24.0C",
+        "industrial_scope": "Real-time solid-state containment of relativistic high-frequency electron orbital paths."
+      },
+      {
+        "id": 60,
+        "title": "Commercial Fusion Reactor Plasma Tokamak Balance",
+        "input_charge_ev": 4.50e12,
+        "load_multiplier": 5.5,
+        "expected_v_a_ratio": 0.5,
+        "expected_v_b_ratio": 0.5,
+        "expected_v_c_dampening": 0.0,
+        "target_room_temperature": "24.8C",
+        "industrial_scope": "Stabilizing magnetic confinement tensor vectors in helium plasmas without software loops."
+      }
+    ]
+  }
+}
