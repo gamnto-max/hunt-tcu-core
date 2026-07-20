@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-# Global Hardware Configuration - Megaproject Tridente Infrastructure
+# Global Hardware Configuration - Megaproject Tridente Infrastructure 
 st.set_page_config(
     page_title="THE TRIDENTE INITIATIVE - Core Matrix",
     page_icon="🔱",
