@@ -163,7 +163,7 @@ $$\## 🔬 REAL-TIME LAB VERIFICATION DIRECTORY
 For hardware review boards and design verification engineers, this repository contains production-ready layouts for immediate simulation testing:
 
 *   📂 **`tcu_universal_matrix_processor.v`** — The complete synthesizable Verilog RTL Core indexing the 22 standalone industrial scenarios with fixed-point trigonometric multipliers.
-*   📂 **`tcu_core_tb.v`** — Automated laboratory testbench to inject high-energy transient spikes and verify invariant unit bounds ($\# = 1$) under standard nanometer design rules.
+*   📂 **`tcu_core_tb.v`** — Automated laboratory testbench to inject high-energy transient spikes and verify invariant unit bounds (\# = 1) under standard nanometer design rules.
 *   📂 **`industrial_vectors.json`** — Raw test vectors mapping input electronvolt ($\text{eV}$) charges for immediate validation inside Vivado or Synopsys toolchains.
 
 ---
